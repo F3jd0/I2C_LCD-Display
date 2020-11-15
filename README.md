@@ -18,7 +18,9 @@ Use of I2C bus to connect LCD display with Arduino &amp; Raspberry Pi microcontr
                                      
 # I2C_LCD Display 16x2
 
-# {Arduino}
+- connect to microcontroller
+
+ - {Arduino}
 
 Pins: 
 1. Vcc - connect to 5V
@@ -26,7 +28,7 @@ Pins:
 3. SDA (Serial Data Line) -  connect to Analog pin "A4"
 4. SCL (Serial Clock Line) - connect to Analog pin "A5" 
 
-# {RaspberryPi}
+ - {RaspberryPi}
 
 Pins:
 1. Vcc - connect to Pin "2 or 4"
