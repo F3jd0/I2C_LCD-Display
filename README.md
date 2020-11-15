@@ -7,14 +7,14 @@ Use of I2C bus to connect LCD display with Arduino &amp; Raspberry Pi microcontr
 - is a bus with a clock (SCL) and data (SDA) lines with 7-bit addressing
 
 - bus has two roles:
-  1. Master - node that generates the clock
-  2. Slave - node that receives the clock
+  a) Master - node that generates the clock
+  b) Slave - node that receives the clock
                     
 - four modes of operation for a bus: 
-  1. Master transmit – master node is sending data to a slave
-  2. Master receive – master node is receiving data from a slave
-  3. Slave transmit – slave node is sending data to the master
-  4. Slave receive – slave node is receiving data from the master
+  a) Master transmit – master node is sending data to a slave
+  b) Master receive – master node is receiving data from a slave
+  c) Slave transmit – slave node is sending data to the master
+  d) Slave receive – slave node is receiving data from the master
                                      
 # I2C_LCD Display 16x2
 
