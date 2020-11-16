@@ -56,7 +56,6 @@ class i2c_device:
    def read_block_data(self, cmd):
       return self.bus.read_block_data(self.addr, cmd)
 
-
 # commands
 LCD_CLEARDISPLAY = 0x01
 LCD_RETURNHOME = 0x02
@@ -119,7 +118,6 @@ class lcd:
       self.lcd_write(LCD_ENTRYMODESET | LCD_ENTRYLEFT)
       sleep(0.2)
 
-
    # clocks EN to latch command
    def lcd_strobe(self, data):
       self.lcd_device.write_cmd(data | En | LCD_BACKLIGHT)
@@ -176,4 +174,3 @@ class lcd:
       for char in fontdata:
          for line in char:
             self.lcd_write_char(line)         
-         
