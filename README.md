@@ -20,8 +20,9 @@ Use of I2C bus to connect LCD display with Arduino &amp; Raspberry Pi microcontr
 
 # Find I2C address
  
- command prompt --> $ i2cdetect -y 1 
- open I2C_LCD_driver.py in texteditor --> $ nano I2C_LCD_driver.py <-- and to change (line 22) "ADDRESS = 0x27" on your Address  
+- command prompt --> $ i2cdetect -y 1
+- open I2C_LCD_driver.py in texteditor --> $ nano I2C_LCD_driver.py
+- and to change (line 22) "ADDRESS = 0x27" on your Address  
 
 # RaspberryPi - I2C_LCD Display 16x2
 
