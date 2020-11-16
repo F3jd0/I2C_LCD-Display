@@ -8,6 +8,17 @@ Use of I2C bus to connect LCD display with Arduino &amp; Raspberry Pi microcontr
   --> “Advanced Options”
   --> “I2C Enable/Disable automatic loading”
   --> reboot Pi
+  
+# RaspberryPi - I2C_LCD Display 16x2
+
+- connect pins to microcontroller:
+
+Pins:
+1. Vcc - connect to Pin "2 or 4"
+2. Gnd - connect to Pin "6,9,14,20,25,30,34 or 39"
+3. SDA (Serial Data Line) - connect to Pin "3" --> "GPIO 02"
+4. SCL (Serial Clock Line) - connect to Pin "5" --> "GPIO 03"
+  
 
 # Install I2C-tools & SMBUS
 
@@ -22,14 +33,4 @@ Use of I2C bus to connect LCD display with Arduino &amp; Raspberry Pi microcontr
  
 - command prompt --> $ i2cdetect -y 1
 - open I2C_LCD_driver.py in texteditor --> $ nano I2C_LCD_driver.py
-- and to change (line 22) "ADDRESS = 0x27" on your Address  
-
-# RaspberryPi - I2C_LCD Display 16x2
-
-- connect pins to microcontroller:
-
-Pins:
-1. Vcc - connect to Pin "2 or 4"
-2. Gnd - connect to Pin "6,9,14,20,25,30,34 or 39"
-3. SDA (Serial Data Line) - connect to Pin "3" --> "GPIO 02"
-4. SCL (Serial Clock Line) - connect to Pin "5" --> "GPIO 03"
+- and to change (line 22) "ADDRESS = 0x27" on your Address
