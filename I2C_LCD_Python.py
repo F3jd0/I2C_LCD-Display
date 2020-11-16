@@ -4,6 +4,7 @@ Code for use LCD via I2C BUS
 #You will find the connection in Branches
 #By F3jd0
 #2020-11-16
+
 """
 
 #import Driver("library") for LCD
@@ -17,4 +18,5 @@ from time import *
 #function to change the time the text stays on
    time.sleep(3)
     lcd.lcd_clear()
-# to end the program -> press ctrl+C
+
+  # to end the program -> press ctrl+C
