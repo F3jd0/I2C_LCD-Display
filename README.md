@@ -1,7 +1,3 @@
-# I2C_LCD-for_microcontrollers
-
-Use of I2C bus to connect LCD display with Arduino &amp; Raspberry Pi microcontrollers with Python and C programming language
-
 # I2C Bus (Inter-Integrated Circuit)
 
 - is a bus with a clock (SCL) and data (SDA) lines with 7-bit addressing
