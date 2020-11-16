@@ -17,4 +17,5 @@ from time import *
 #function to change the time the text stays on
    time.sleep(3)
     lcd.lcd_clear()
+  
 # to end the program -> press ctrl+C
